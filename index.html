@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Hospital</title>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="css/#style.css">
+</head>
+<body>
+    <main>
+            <h1>Determinar el costo de hospitalizacion</h1>
+            <form id="frmCalcular"></form>
+    
+        
+        <div>
+            <label for="sltEnfermedad">Tipo de Enfermedad</label>
+            <select id="sltEnfermedad">
+                <option value="">--Seleccione el tipo de enfermedad--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Edad del Paciente</label>
+            <input type="number" id= "txtEdad">
+        </div>  
+
+        <div>
+            <label for="">Dias de internamiento</label>
+            <input type="number"= id="txtDias">
+        </div>
+
+        <div>
+            <button type="button">Calcular Costo de internamiento</button>
+        </div>
+
+        <div>
+            <label for="txtCosto"> El costo del internamiento es: </label>
+            <output id= "txtCosto"></output>
+        </div>
+   
+
+        </form>
+
+    </main>
+
+        <script src="js/controlador.js"></script>
+        <script src="js/servicio.js"></script>
+</body>
+</html>
